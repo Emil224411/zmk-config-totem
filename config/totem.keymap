@@ -44,22 +44,19 @@
             key-positions = <13 16>;
             layers = <0>;
         };
+
+        dk {
+            bindings = <&alts>;
+            key-positions = <12 13 16 17>;
+        };
     };
 
     macros {
-        gif: gif {
-            label = "giphy";
+        alts: alts {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp N2>,
-                <&macro_release>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp G &kp I &kp F>;
+            bindings = <&kp LEFT_ALT &kp RIGHT_ALT>;
+            label = "ALTS";
         };
     };
 
