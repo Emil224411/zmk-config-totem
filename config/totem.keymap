@@ -167,10 +167,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &trans   &trans     &trans    &trans    &trans  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-        &trans  &kp DOT  &kp EQUAL  &kp FSLH  &trans    &trans  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&trans  &trans  &trans   &trans     &trans    &trans    &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
-                         &trans     &trans    &trans    &trans  &trans     &kp KP_N0
+            &trans  &trans   &trans     &trans    &trans    &trans  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
+            &trans  &kp DOT  &kp EQUAL  &kp FSLH  &trans    &trans  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
+&kp KP_NUM  &trans  &trans   &trans     &trans    &trans    &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
+                             &trans     &trans    &trans    &trans  &trans     &kp KP_N0
             >;
         };
 
