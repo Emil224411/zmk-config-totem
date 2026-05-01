@@ -140,10 +140,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp Q     &kp W     &kp E          &kp R         &kp T        &kp Y  &kp U         &kp I         &kp O     &kp P
-            &hll 3 A  &hll 1 S  &hml LCTRL D   &hml LSHFT F  &kp G        &kp H  &hmr RSHFT J  &hmr RCTRL K  &hlr 2 L  &hlr 3 SEMICOLON
-&kp ESCAPE  &kp Z     &kp X     &kp C          &kp V         &kp B        &kp N  &kp M         &kp COMMA     &kp DOT   &kp FSLH          &kp BSLH
-                                &kp BACKSPACE  &mt LGUI TAB  &lt 4 DEL    &mo 1  &kp ENTER     &kp SPACE
+            &kp Q     &kp W     &kp E         &kp R          &kp T           &kp Y      &kp U         &kp I         &kp O     &kp P
+            &hll 3 A  &hll 1 S  &hml LCTRL D  &hml LSHFT F   &kp G           &kp H      &hmr RSHFT J  &hmr RCTRL K  &hlr 2 L  &hlr 3 SEMICOLON
+&kp ESCAPE  &kp Z     &kp X     &kp C         &kp V          &kp B           &kp N      &kp M         &kp COMMA     &kp DOT   &kp FSLH          &kp SQT
+                                &lt 4 DEL     &kp BACKSPACE  &mt LGUI TAB    &kp ENTER  &kp SPACE     &mo 1
             >;
         };
 
@@ -236,34 +236,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
-                &bootloader  &bt BT_NXT  &trans        &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&studio_unlock  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                         &trans        &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        tvp2_layer {
-            // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-
-            label = "TVP 2";
-
-            // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-            //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-            //             ┃ SOLO      ┃ TOGGLE IN ┃ RESET ROT ┃ TOGGLE OUT┃ TAKE SNAP ┃   ┃           ┃           ┃           ┃           ┃           ┃
-            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-            //             ┃ ---       ┃ LAST KEY  ┃ NEW KEY   ┃ NEXT KEY  ┃ ENTER     ┃   ┃           ┃           ┃           ┃           ┃           ┃
-            // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃           ┃ FULLSCR   ┃ CPY2BRUSH ┃ DEL HEAD  ┃ PSTinPLACE┃ BOOK MARK ┃   ┃           ┃           ┃           ┃           ┃           ┃           ┃
-            // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-            //                                     ┃           ┃ REDO/SAV1 ┃TRANS/WARP ┃   ┃           ┃           ┃           ┃
-            //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-
-            bindings = <
-        &kp LC(F18)  &kp LS(I)     &kp LS(HOME)  &kp LS(O)      &kp LS(F)      &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &trans       &kp LS(LEFT)  &kp LC(F17)   &kp LS(RIGHT)  &kp RET        &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &kp J        &kp LS(C)     &kp LC(F16)   &kp LS(V)      &kp LC(F15)    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                   &trans        &kp LC(F12)    &kp LC(F11)    &trans  &trans  &trans
+                &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans           &trans        &trans        &kp F7      &kp F8        &kp F9  &kp F12
+                &bootloader  &bt BT_NXT  &trans        &kp C_AL_COFFEE  &trans        &trans        &kp F4      &kp F5        &kp F6  &kp F11
+&studio_unlock  &trans       &bt BT_PRV  &trans        &kp C_PREV       &trans        &trans        &kp F1      &kp F2        &kp F3  &kp F10  &trans
+                                         &kp C_PREV    &kp C_PP         &kp C_NEXT    &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP
             >;
         };
     };
