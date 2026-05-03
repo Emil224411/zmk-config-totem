@@ -42,6 +42,11 @@
             bindings = <&alts>;
             key-positions = <0 1 2 3>;
         };
+
+        qwerty_to_colemak {
+            bindings = <&tog 5>;
+            key-positions = <2 3 4 0 1 5 6 7 8 9>;
+        };
     };
 
     macros {
