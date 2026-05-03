@@ -244,5 +244,14 @@
                                          &kp C_PREV    &kp C_PP         &kp C_NEXT    &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP
             >;
         };
+
+        colemak {
+            bindings = <
+         &kp Q     &kp W     &kp F         &kp P          &kp B           &kp J      &kp L         &kp U         &kp Y     &kp SEMI
+         &hll 3 A  &hll 1 R  &hml LCTRL S  &hml LSHFT T   &kp G           &kp M      &hmr RSHFT N  &hmr RCTRL E  &hlr 2 I  &hlr 3 O
+&kp ESC  &kp Z     &kp X     &kp C         &kp D          &kp V           &kp K      &kp H         &kp COMMA     &kp DOT   &kp FSLH  &kp APOS
+                             &lt 4 DEL     &kp BACKSPACE  &mt LGUI TAB    &kp ENTER  &kp SPACE     &mo 1
+            >;
+        };
     };
 };
