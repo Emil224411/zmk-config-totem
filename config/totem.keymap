@@ -47,6 +47,11 @@
             bindings = <&tog 5>;
             key-positions = <2 0 1 7 8 9 31 20>;
         };
+
+        gaming {
+            bindings = <&tog 6>;
+            key-positions = <20 31>;
+        };
     };
 
     macros {
@@ -256,6 +261,15 @@
          &hll 3 A  &hll 1 R  &hml LCTRL S  &hml LSHFT T   &kp G           &kp M      &hmr RSHFT N  &hmr RCTRL E  &hlr 2 I  &hlr 3 O
 &kp ESC  &kp Z     &kp X     &kp C         &kp D          &kp V           &kp K      &kp H         &kp COMMA     &kp DOT   &kp FSLH  &kp APOS
                              &lt 4 DEL     &kp BACKSPACE  &mt LGUI TAB    &kp ENTER  &kp SPACE     &mo 1
+            >;
+        };
+
+        game {
+            bindings = <
+            &none      &kp Q  &none   &kp E      &none        &none  &none  &none  &none  &none
+            &kp LCTRL  &kp A  &kp W   &kp D      &kp R        &none  &none  &none  &none  &none
+&kp ESCAPE  &none      &none  &kp S   &none      &none        &none  &none  &none  &none  &none  &none
+                              &kp N2  &kp SPACE  &kp LSHFT    &none  &none  &none
             >;
         };
     };
