@@ -175,7 +175,7 @@
 
         hands_down_gold {
             bindings = <
-         &kp J     &kp G     &kp M         &kp P         &kp V           &kp SEMI      &kp COMMA     &kp DOT       &kp FSLH  &kp APOS
+         &kp J     &kp G     &kp M         &kp P         &kp V           &kp SEMI      &kp COMMA     &kp DOT       &kp FSLH  &kp K
          &hll 4 R  &hll 5 S  &hml LCTRL N  &hml LSHFT D  &kp B           &kp Q         &hmr RSHFT A  &hmr RCTRL E  &hlr 5 I  &hlr 4 H
 &kp ESC  &kp X     &kp F     &kp L         &kp C         &kp W           &kp Z         &kp U         &kp O         &kp Y     &kp K     &kp APOS
                              &kp BSPC      &kp T         &mt LGUI TAB    &lt 3 RETURN  &kp SPACE     &mo 6
