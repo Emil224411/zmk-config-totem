@@ -223,10 +223,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans    &kp HASH   &kp BSLH  &kp AT      &trans       &trans    &kp EXCL   &kp ASTRK  &kp AMPS   &trans
-        &kp PIPE  &kp DQT    &kp LPAR  &kp RPAR    &kp TILDE    &kp PLUS  &kp EQUAL  &kp MINUS  &kp UNDER  &kp PIPE
-&trans  &trans    &kp COMMA  &kp DOT   &kp DOLLAR  &trans       &trans    &kp LT     &kp COLON  &kp GT     &trans    &trans
-                             &trans    &trans      &trans       &trans    &trans     &trans
+        &trans    &kp HASH  &kp GRAVE          &kp AT      &trans       &trans    &kp ASTRK  &kp EXCLAMATION  &kp AMPS   &trans
+        &kp PIPE  &kp LPAR  &kp QUESTION       &kp RPAR    &kp TILDE    &kp PLUS  &kp EQUAL  &kp MINUS        &kp UNDER  &kp PIPE
+&trans  &trans    &kp SQT   &kp DOUBLE_QUOTES  &kp DOLLAR  &trans       &trans    &kp LT     &kp COLON        &kp GT     &trans    &trans
+                            &trans             &trans      &trans       &trans    &trans     &trans
             >;
         };
 
