@@ -48,7 +48,7 @@
             key-positions = <2 0 1 7 8 9>;
         };
 
-        gaming {
+        hands_down {
             bindings = <&tog 2>;
             key-positions = <20 31>;
         };
@@ -56,6 +56,16 @@
         capsword {
             bindings = <&caps_word>;
             key-positions = <12 17>;
+        };
+
+        hdg_q {
+            bindings = <&kp Q>;
+            key-positions = <1 0>;
+        };
+
+        hdg_z {
+            bindings = <&kp Z>;
+            key-positions = <1 3>;
         };
     };
 
@@ -175,10 +185,10 @@
 
         hands_down_gold {
             bindings = <
-         &kp J     &kp G     &kp M         &kp P         &kp V           &none         &kp COMMA     &kp DOT       &kp FSLH  &kp K
-         &hll 4 R  &hll 5 S  &hml LCTRL N  &hml LSHFT D  &kp B           &kp Z         &hmr RSHFT A  &hmr RCTRL E  &hlr 5 I  &hlr 4 H
-&kp ESC  &kp X     &kp F     &kp L         &kp C         &kp W           &none         &kp U         &kp O         &kp Y     &kp SEMICOLON  &kp Q
-                             &kp BSPC      &kp T         &mt LGUI TAB    &lt 3 RETURN  &kp SPACE     &mo 6
+         &kp J     &kp G     &kp M         &kp P         &kp V           &none         &kp COMMA     &kp DOT       &kp FSLH  &kp SEMICOLON
+         &hll 4 R  &hll 5 S  &hml LCTRL N  &hml LSHFT D  &kp B           &none         &hmr RSHFT A  &hmr RCTRL E  &hlr 5 I  &hlr 4 H
+&kp ESC  &kp X     &kp F     &kp L         &kp C         &kp W           &none         &kp U         &kp O         &kp Y     &kp K          &kp SQT
+                             &kp T         &kp BSPC      &mt LGUI TAB    &lt 3 RETURN  &kp SPACE     &mo 6
             >;
         };
 
@@ -223,10 +233,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans    &kp HASH  &kp GRAVE          &kp AT      &trans       &trans    &kp ASTRK  &kp EXCLAMATION  &kp AMPS   &trans
-        &kp PIPE  &kp LPAR  &kp QUESTION       &kp RPAR    &kp TILDE    &kp PLUS  &kp EQUAL  &kp MINUS        &kp UNDER  &kp PIPE
-&trans  &trans    &kp SQT   &kp DOUBLE_QUOTES  &kp DOLLAR  &trans       &trans    &kp LT     &kp COLON        &kp GT     &trans    &trans
-                            &trans             &trans      &trans       &trans    &trans     &trans
+        &trans    &kp HASH     &kp GRAVE     &kp AT             &trans       &trans    &kp ASTRK  &kp EXCLAMATION  &kp AMPS   &trans
+        &kp PIPE  &kp LPAR     &kp QUESTION  &kp RPAR           &kp TILDE    &kp PLUS  &kp EQUAL  &kp MINUS        &kp UNDER  &kp PIPE
+&trans  &trans    &kp PERCENT  &kp SQT       &kp DOUBLE_QUOTES  &trans       &trans    &kp LT     &kp COLON        &kp GT     &trans    &trans
+                               &trans        &trans             &trans       &trans    &trans     &trans
             >;
         };
 
