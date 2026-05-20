@@ -185,10 +185,10 @@
 
         hands_down_gold {
             bindings = <
-         &kp J     &kp G     &kp M         &kp P         &kp V           &none         &kp COMMA     &kp DOT       &kp FSLH  &kp SEMICOLON
-         &hll 4 R  &hll 5 S  &hml LCTRL N  &hml LSHFT D  &kp B           &none         &hmr RSHFT A  &hmr RCTRL E  &hlr 5 I  &hlr 4 H
-&kp ESC  &kp X     &kp F     &kp L         &kp C         &kp W           &none         &kp U         &kp O         &kp Y     &kp K          &kp SQT
-                             &kp T         &kp BSPC      &mt LGUI TAB    &lt 3 RETURN  &kp SPACE     &mo 6
+         &kp J     &kp G     &kp M          &kp P         &kp V           &none         &kp COMMA     &kp DOT       &kp FSLH  &kp SEMICOLON
+         &hll 4 R  &hll 5 S  &hml LCTRL N   &hml LSHFT D  &kp B           &none         &hmr RSHFT A  &hmr RCTRL E  &hlr 5 I  &hlr 4 H
+&kp ESC  &kp X     &kp F     &kp L          &kp C         &kp W           &none         &kp U         &kp O         &kp Y     &kp K          &kp SQT
+                             &kp BACKSPACE  &kp T         &mt LGUI TAB    &lt 3 RETURN  &kp SPACE     &mo 6
             >;
         };
 
