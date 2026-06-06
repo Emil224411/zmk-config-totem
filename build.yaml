@@ -1,6 +1,8 @@
 include:
   - board: xiao_ble//zmk
     shield: totem_left
+    snippet: zmk-usb-logging
   - board: xiao_ble//zmk
     shield: totem_right
+    snippet: zmk-usb-logging
 # there is no settingsreset (needed) for the XIAO
